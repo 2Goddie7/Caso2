@@ -1,6 +1,6 @@
 import mongoose, { Schema, model } from "mongoose";
 
-const estudianteSchema = new Schema({
+const vehiculoSchema = new Schema({
     marca: {
         type: String,
         required: true,
@@ -46,4 +46,4 @@ const estudianteSchema = new Schema({
     collection: 'vehiculos'
 });
 
-export default model('Estudiante', estudianteSchema);
+export default model('Vehiculo', vehiculoSchema);
